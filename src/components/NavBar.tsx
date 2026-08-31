@@ -9,7 +9,7 @@ const Navbar = () => {
         </NavLink>
         <ul className="nav-menu">
           <NavLink className="nav-link" to="/">
-            About
+            Lore
           </NavLink>
           <NavLink className="nav-link" to="/">
             Projects
