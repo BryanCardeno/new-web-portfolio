@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 #root {
   min-height: 100vh;
   display: flex;
@@ -25,7 +29,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 50%;
+  max-width: 120rem;
   font-family: "Bangers", "san-serif";
   /* widht need to be changed later on */
   /* overflow: visible; */
@@ -47,7 +51,7 @@ header {
 } */
 
 .nav .title {
-  font-size: 48px;
+  font-size: 4.8rem;
   /* text-shadow: 3px 5px #558abb; */
   text-shadow: 3px 5px #111;
   transform: scale(2) translateY(12%);
@@ -81,15 +85,17 @@ main.container {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  background-color: #f2b705;
+  /* background-color: #f2b705; */
   justify-content: center;
+  padding: 4.8rem 0;
 }
 
 .content {
   display: grid;
   gap: 20px;
   /* background-color: #fff; */
-  padding: 20px 32px;
+  /* padding: 20px 32px; */
+  padding: 2rem 3.2rem;
   border-radius: 12px;
 }
 
@@ -97,7 +103,7 @@ main.container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   color: #343a40;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
@@ -120,10 +126,15 @@ main.container {
 }
 
 .book {
-  width: 650px;
-  height: 800px;
+  /* width: 650px; */
+  /* height: 800px; */
+
+  max-width: 65rem;
+  max-height: 80rem;
+  flex: 1;
   background-color: #003d99;
   font-family: "Bangers", "Sans-serif";
+  position: relative;
 }
 
 .cover {
@@ -133,7 +144,7 @@ main.container {
   /* align-items: center; */
   height: 100%;
 
-  font-size: 96px;
+  font-size: 9.6rem;
   color: #fff8e7;
   text-shadow: -10px 5px #111;
   /* color: #111; */
@@ -142,5 +153,5 @@ main.container {
 
 .cover-text {
   text-align: center;
-  padding-top: 48px;
+  padding-top: 4.8rem;
 }

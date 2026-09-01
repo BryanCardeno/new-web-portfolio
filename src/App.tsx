@@ -4,7 +4,7 @@ import HomePage from "./portfolio/HomePage";
 import CssPage from "./css-sandbox/CssPage";
 import MathWindowCardPage from "./math-window-card/MathWindowCardPage";
 import NotFoundPage from "./NotFoundPage";
-import Navbar from "./components/NavBar";
+import Navbar from "./shared/components/NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
